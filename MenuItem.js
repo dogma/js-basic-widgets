@@ -6,6 +6,7 @@ dojo.declare("basics.MenuItem",[dijit._Widget,dijit._Templated],{
             "   <div class='icon' dojoAttachPoint='iconNode'></div>" +
             "   <div class='label' dojoAttachPoint='titleNode'></div>" +
             "</div>",
+    baseClass: "basicsMenuItem",
     click: null,
     attributeMap: {
         icon: { node: 'iconNode', type:'class' },

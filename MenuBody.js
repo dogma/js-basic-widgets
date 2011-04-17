@@ -4,6 +4,7 @@ dojo.require("dijit._Templated");
 dojo.require("basics.MenuItem");
 dojo.declare("basics.MenuBody",[dijit._Widget,dijit._Templated],{
     templateString: "<div class='basicsMenuBody' style='display:none;' dojoAttachPoint='bodyNode'></div>",
+    baseClass: "basicsMenuBody",
     attributeMap: {
         body: { node: 'bodyNode', type: 'innerHTML' }
     },
